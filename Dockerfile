@@ -9,6 +9,9 @@ ENV PYTHONUNBUFFERED 1
 COPY DesafioApp /DesafioApp
 COPY scripts /scripts
 
+RUN apk add nodejs
+RUN apk add npm
+
 WORKDIR /DesafioApp
 EXPOSE 8000
 
@@ -25,8 +28,9 @@ RUN python -m venv /venv && \
   chmod -R 755 /data/web/media && \
   chmod -R +x /scripts
 
+
 ENV PATH="/scripts:/venv/bin:$PATH"
 
 USER duser
 
-CMD ["commands.sh"]
+CMD ["commands.sh", "node"]

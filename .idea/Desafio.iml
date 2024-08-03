@@ -29,6 +29,7 @@
       <excludeFolder url="file://$MODULE_DIR$/data/postgres/data/pg_wal/archive_status" />
       <excludeFolder url="file://$MODULE_DIR$/data/web" />
       <excludeFolder url="file://$MODULE_DIR$/data/web/media" />
+      <excludeFolder url="file://$MODULE_DIR$/data" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

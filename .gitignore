@@ -25,6 +25,7 @@ data/
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea
 
 # Gradle
 .idea/**/gradle.xml
@@ -396,3 +397,4 @@ cython_debug/
 
 # Android studio 3.1+ serialized cache file
 
+DesafioApp/node_modules

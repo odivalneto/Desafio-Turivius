@@ -397,4 +397,4 @@ cython_debug/
 
 # Android studio 3.1+ serialized cache file
 
-DesafioApp/node_modules
+/DesafioApp/node_modules/
